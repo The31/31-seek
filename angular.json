@@ -23,6 +23,7 @@
               "client/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "client/styles.css"
             ],
             "scripts": []
