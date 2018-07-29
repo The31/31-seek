@@ -1,6 +1,6 @@
 export class Job {
   public company: String;
-  public jobTitle: String;
+  public job: String;
   public compensation: String;
   public appliedDate: Date;
   public phoneScreenDate: Date;
@@ -12,13 +12,13 @@ export class Job {
   public contactPhone: String;
   public contactEmail: String;
 
-  constructor(company: String, jobTitle: String, compensation: String, 
+  constructor(company: String, job: String, compensation: String, 
     appliedDate: Date, phoneScreenDate: Date, onSiteDate: Date,
     offerDate: Date, result: String, obstacles: String, 
     mainContact: String, contactPhone: String, contactEmail: String){
 
       this.company = company;
-      this.jobTitle = jobTitle;
+      this.job = job;
       this.compensation = compensation;
       this.appliedDate = appliedDate;
       this.phoneScreenDate = phoneScreenDate;
