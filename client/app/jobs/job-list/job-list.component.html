@@ -1,3 +1,29 @@
-<p>
-  job-list works!
-</p>
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New Job</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Company</th>
+        <th scope="col">Applied</th>
+        <th scope="col">Phone Screen</th>
+        <th scope="col">Onsite</th>
+        <th scope="col">Offer</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr
+        *ngFor="let job of jobs">
+          <th scope="row">1</th>
+          <td *ngIf=>the Bird</td>
+          <td>@twitter</td>
+          <td>@twitter</td> 
+          <td>@twitter</td>
+        </tr>
+    </tbody>
+  </table>
+</div>

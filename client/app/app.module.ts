@@ -9,6 +9,7 @@ import { JobListComponent } from './jobs/job-list/job-list.component';
 import { JobDetailComponent } from './jobs/job-detail/job-detail.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { TaskEditComponent } from './tasks/task-edit/task-edit.component';
+import { JobEntryComponent } from './jobs/job-list/job-entry/job-entry.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TaskEditComponent } from './tasks/task-edit/task-edit.component';
     JobDetailComponent,
     TasksComponent,
     TaskEditComponent,
+    JobEntryComponent,
   ],
   imports: [
     BrowserModule,
